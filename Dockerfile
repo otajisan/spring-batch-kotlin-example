@@ -1,4 +1,6 @@
 FROM openjdk:13-alpine
+MAINTAINER otajisan
+
 VOLUME /tmp
 
 RUN mkdir /spring-batch-kotlin-example
